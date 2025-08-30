@@ -1,98 +1,86 @@
-# GSoC'25 - Final Project Report
+# GSoC '25 Final Project Report: A Journey with Meshery and Layer5
 
-This report summarizes the work completed during Google Summer of Code 2025. It highlights the contributions made, the goals achieved, learnings gained, and future plans for continued involvement.
-
----
-
-## Basic Information
-
-* **Name**: Varad Gupta
-* **Email**: [varadgupta21@gmail.com](mailto:varadgupta21@gmail.com)
-* **University**: Indian Institute of Information Technology, Ranchi
-* **GSoC Organisation**: [Meshery](https://github.com/meshery)
-* **Project**: Expanding end-to-end test coverage in Meshery using Playwright
-* **Proposal Link**: [View Proposal](https://drive.google.com/file/d/1rbonjq1pMdqBkRN9FunenirDKhuAQbsW/view?usp=sharing)
+This report encapsulates my journey through Google Summer of Code 2025 with Layer5, detailing the projects I contributed to, the skills I developed, and my ongoing commitment to the community.
 
 ---
 
-## Goals Achieved
+## Overview
 
-### 1. Enhancing Meshery’s Playground UI & Test Coverage
-
-I started the coding period with a focus on **Meshery Playground UI**—building new features and strengthening automated testing workflows. Using **Playwright**, I developed and optimized multiple end-to-end test scenarios. These efforts improved test reliability, reduced flakiness, and added broader UI coverage.
-
-Key contributions:
-
-* [#14388](https://github.com/meshery/meshery/pull/14388)
-* [#14195](https://github.com/meshery/meshery/pull/14195)
-* [#14333](https://github.com/meshery/meshery/pull/14333)
-* [#14372](https://github.com/meshery/meshery/pull/14372)
-* [#15207](https://github.com/meshery/meshery/pull/15207)
-* [#14749](https://github.com/meshery/meshery/pull/14749)
-* [#15040](https://github.com/meshery/meshery/pull/15040)
-* [#14476](https://github.com/meshery/meshery/pull/14476)
-* [#15237](https://github.com/meshery/meshery/pull/15237)
-* [#15175](https://github.com/meshery/meshery/pull/15175)
-
-These contributions largely shaped the **first half** of my coding period.
+*   **Name**: Varad Gupta
+*   **Email**: [varadgupta21@gmail.com](mailto:varadgupta21@gmail.com)
+*   **University**: Indian Institute of Information Technology, Ranchi
+*   **GSoC Organization**: [Layer5](https://layer5.io/)
+*   **Project**: Expanding End-to-End Test Coverage in Meshery and Enhancing the Layer5 Academy
+*   **Proposal**: [View Proposal](https://drive.google.com/file/d/1rbonjq1pMdqBkRN9FunenirDKhuAQbsW/view?usp=sharing)
 
 ---
 
-### 2. Contributions to Layer5 Academy (Second Half)
+## A Dual-Focus GSoC Journey
 
-The **second half** of my GSoC journey shifted towards **Layer5 Academy**—a Hugo-based Learning Management System (LMS) designed to host interactive courses and labs.
+My GSoC experience was divided into two distinct yet interconnected phases: bolstering the robustness of Meshery through rigorous testing and enriching the Layer5 learning ecosystem.
 
-I contributed to:
+### Phase 1: Strengthening Meshery with End-to-End Testing
 
-* **UI improvements and enhancements** across academies.
-* **Content updates** for multiple academies.
-* Cross-repo work in:
+The first half of my GSoC journey was dedicated to **Meshery**, the cloud native manager. My primary focus was on enhancing the **Playground UI** and expanding its end-to-end test suite using **Playwright**. This involved writing scalable tests to validate complex user workflows, which significantly improved the reliability and stability of the application.
 
-  * [layer5io/layer5-academy](https://github.com/layer5io/layer5-academy)
-  * [layer5io/exoscale-academy](https://github.com/layer5io/exoscale-academy)
-  * [layer5io/academy-theme](https://github.com/layer5io/academy-theme)
+**Key Achievements:**
 
-These contributions helped streamline content delivery and ensure consistency across the LMS ecosystem.
+*   **Reduced Test Flakiness**: Implemented best practices in Playwright to create resilient tests, minimizing false positives and ensuring consistent CI/CD runs.
+*   **Expanded UI Test Coverage**: Developed new test scenarios for critical user paths in the Meshery Playground, leading to a more robust and bug-resistant user interface.
+*   **Authored Key Contributions**: My work is reflected in the following pull requests, each representing a step toward a more stable Meshery:
+    *   [#14388](https://github.com/meshery/meshery/pull/14388), [#14195](https://github.com/meshery/meshery/pull/14195), [#14333](https://github.com/meshery/meshery/pull/14333), [#14372](https://github.com/meshery/meshery/pull/14372), [#15207](https://github.com/meshery/meshery/pull/15207), [#14749](https://github.com/meshery/meshery/pull/14749), [#15040](https://github.com/meshery/meshery/pull/15040), [#14476](https://github.com/meshery/meshery/pull/14476), [#15237](https://github.com/meshery/meshery/pull/15237), [#15175](https://github.com/meshery/meshery/pull/15175)
 
----
+### Phase 2: Enhancing the Layer5 Academy Ecosystem
 
-## Learnings & Takeaways
+In the second half, my focus shifted to the **Layer5 Academy**, a Hugo-based Learning Management System (LMS). I worked on improving the user experience, updating content, and ensuring a consistent look and feel across multiple learning platforms.
 
-Throughout this journey, I significantly strengthened both technical and non-technical skills:
+**Key Contributions:**
 
-* **Technical Skills**
-
-  * Deepened expertise in **Playwright**, writing scalable and optimized end-to-end tests.
-  * Hands-on experience with **Hugo**, static site generation, and LMS development.
-  * Improved understanding of **CI/CD pipelines** for testing and content deployment.
-
-* **Community & Collaboration**
-
-  * Improved code review, collaboration, and documentation practices.
-  * Gained confidence in **leading discussions and helping newcomers onboard**.
+*   **UI/UX Enhancements**: Implemented front-end improvements to create a more intuitive and engaging learning environment.
+*   **Content Modernization**: Updated and streamlined course materials to ensure they are accurate and relevant.
+*   **Cross-Repository Collaboration**: Contributed to a family of interconnected repositories, including:
+    *   [layer5io/layer5-academy](https://github.com/layer5io/layer5-academy)
+    *   [layer5io/exoscale-academy](https://github.com/layer5io/exoscale-academy)
+    *   [layer5io/academy-theme](https://github.com/layer5io/academy-theme)
 
 ---
 
-## Ongoing Contributions & Community Involvement
+## Growth and Learnings
 
-My journey does not end with GSoC. Currently, I continue to contribute as:
+This GSoC journey was a period of immense growth, both technically and professionally.
 
-* **Community Manager at Layer5**: Hosting weekly meetings, helping organize community events, inviting and onboarding new members, and fostering collaboration.
-* **Active Contributor**: Continuing technical contributions to Meshery and Layer5 Academy.
-* **Mentorship & Guidance**: Assisting newcomers in understanding project workflows, setting up environments, and making their first contributions.
+*   **Technical Acumen**:
+    *   Mastered **Playwright** for creating scalable, maintainable end-to-end tests in a complex application.
+    *   Gained hands-on experience with **Hugo** and the architecture of modern static site generators.
+    *   Developed a deeper understanding of **CI/CD pipelines**, automated testing, and deployment workflows.
 
-I plan to stay actively engaged with Layer5 and Meshery, as the **learning opportunities, open culture, and mentorship environment are unmatched**.
-
----
-
-## Future Work
-
-*   Continuing contributions to **Meshery**, with a focus on expanding test coverage and implementing advanced scenarios.
-*   Enhancing **Layer5's web properties**, including `cloud.layer5.io`, the main `layer5.io` site, and various academies.
-*   Improving the **Layer5 Learning Management System (LMS)** through system design enhancements and documentation validation automation.
-*   Actively engaging in **community management**, which includes mentoring newcomers and fostering a collaborative environment.
+*   **Community and Collaboration**:
+    *   Honed my skills in code review, constructive feedback, and collaborative development.
+    *   Evolved into a community leader, confidently guiding discussions and mentoring newcomers.
 
 ---
 
-✅ This concludes my **GSoC’25 Final Report**.
-The experience has been immensely rewarding both technically and personally, and I look forward to continuing my journey with Meshery and Layer5.
+## Beyond GSoC: A Commitment to Community
+
+My journey with Layer5 is far from over. I have embraced a long-term role in the community, where I continue to contribute in multiple capacities:
+
+*   **Community Manager**: I help orchestrate community activities, host weekly meetings, and foster a welcoming and inclusive environment for all contributors.
+*   **Active Contributor**: I remain an active technical contributor to both Meshery and the Layer5 Academy, pushing forward new features and improvements.
+*   **Mentor**: I guide newcomers, helping them navigate our projects, set up their development environments, and make their first impactful contributions.
+
+The open, collaborative, and mentorship-driven culture at Layer5 is truly exceptional, and I am proud to be a part of it.
+
+---
+
+## Future Endeavors
+
+I am excited to continue channeling my energy into several key areas:
+
+*   **Advancing Meshery**: I will continue to expand test coverage with more complex, real-world scenarios to further solidify Meshery's stability.
+*   **Elevating Layer5's Web Presence**: I plan to contribute to the evolution of `cloud.layer5.io`, the main `layer5.io` site, and our growing family of academies.
+*   **Innovating the LMS**: I will explore architectural improvements for the Layer5 LMS to enhance its scalability and automate documentation validation.
+*   **Nurturing the Community**: I am committed to my role in community management, where I will continue to mentor, guide, and build a thriving open-source ecosystem.
+
+---
+
+✅ This concludes my GSoC '25 Final Report. The experience has been transformative, and I am eager to continue my journey of learning, contribution, and growth with the Layer5 community.
